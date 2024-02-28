@@ -1,0 +1,58 @@
+@media only screen and (max-width: 768px) {
+  .navbar a {
+    font-size: 0.8rem;
+  }
+
+  .konten-beranda {
+    display: flex;
+    flex-direction: column;
+  }
+  .tulisan {
+    width: auto;
+    height: auto;
+  }
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+  .gambar {
+    width: auto;
+    height: auto;
+  }
+  .konten-gambar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+     }
+  .konten-gambar img {
+    width: 80%;
+  }
+  .makanan {
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+  }
+  .konten-makanan {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-makanan {
+    width: 100%;
+    height: 100%;
+  }
+  .gambar-makanan {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .gambar-makanan img {
+   display: none;
+  }
+}
